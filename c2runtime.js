@@ -19377,9 +19377,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Button,
 	cr.plugins_.Multiplayer,
 	cr.plugins_.Function,
-	cr.plugins_.Text,
-	cr.plugins_.Touch,
 	cr.plugins_.TiledBg,
+	cr.plugins_.Touch,
+	cr.plugins_.Text,
 	cr.behaviors.Sin,
 	cr.plugins_.Button.prototype.cnds.OnClicked,
 	cr.plugins_.Multiplayer.prototype.cnds.IsSupported,
@@ -19423,4 +19423,3 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.exps.str,
 	cr.system_object.prototype.acts.AddVar
 ];};
-
